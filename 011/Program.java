@@ -4,10 +4,10 @@ public class Program {
         int i = 0;
 
         while (i < height) {
-            for (int j = 0; j < i; j++) {
-              System.out.print(" ");
-            }
-            
+            String space = " ";
+            String spaces = space.repeat(i);
+            System.out.print(spaces);
+
             System.out.println("*");
             i++;
         }
