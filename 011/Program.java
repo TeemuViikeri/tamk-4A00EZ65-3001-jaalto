@@ -1,6 +1,10 @@
 public class Program {
     public static void main(String[] args) {
         int height = 5;
+        shape(height, "*");
+    }
+
+    public static void shape(int height, String symbol) {
         int i = 0;
 
         while (i < height) {
@@ -8,7 +12,7 @@ public class Program {
             String spaces = space.repeat(i);
             System.out.print(spaces);
 
-            System.out.println("*");
+            System.out.println(symbol);
             i++;
         }
     }
