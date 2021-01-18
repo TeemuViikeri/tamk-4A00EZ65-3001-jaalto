@@ -1,4 +1,4 @@
-public class GameFruitSlots {
+public class Program {
     public static void main(String[] args) {
         Game ui = new Game();
 

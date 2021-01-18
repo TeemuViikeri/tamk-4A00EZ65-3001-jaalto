@@ -1,4 +1,4 @@
-class Morse {
+class Program {
     public static void main(String[] args) {
         Translator translator = new Translator();
         String text = "text";

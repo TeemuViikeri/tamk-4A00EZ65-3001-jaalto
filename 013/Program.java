@@ -1,4 +1,4 @@
-class Bmi {
+class Program {
     public static void main(String[] args) {
         Formula f = new Formula();
 
