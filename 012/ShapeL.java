@@ -1,4 +1,4 @@
-class Shape {
+class ShapeL {
     public void leftL(int height, String symbol) {
         int i = 0;
 
