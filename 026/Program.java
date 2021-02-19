@@ -1,32 +1,3 @@
-// Write program with following classes:
-
-// Program.java
-// Book.java
-// Bookshelf.java
-
-// Requirements for the Book class:
-
-// - constructor(), constructor(<all params>)
-// - get(), set()
-// - Book name
-// - Authoer
-// - ISBN
-// - Published year
-// - Publisher
-// - print()
-
-// Requirements for the Bookshelf class. The user can store N
-// Book objects to the shelf. The size of shelf is defined by
-// using constructor and cannot be changed during the lifetime
-// of bookshelf.
-
-// - constructor(N)    // N = the size of bookshelf
-// - add(Book object)
-// - remove(N)         // Remove index N from bookshelf. Mark unused.
-// - print()           // Display books in shelf
-// - count()           // Display used active slots (current used size)
-// - size()            // Maximum size of shelf
-
 public class Program {
     public static void main(String[] args) {
         Bookshelf shelf = new Bookshelf(8);

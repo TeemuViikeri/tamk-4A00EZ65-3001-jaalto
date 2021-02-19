@@ -1,14 +1,3 @@
-// Requirements for the Book class:
-
-// - constructor(), constructor(<all params>)
-// - get(), set()
-// - Book name
-// - Authoer
-// - ISBN
-// - Published year
-// - Publisher
-// - print()
-
 public class Book {
 
     enum Status {
