@@ -1,20 +1,5 @@
 import java.util.*;
 
-// 8.3 Lambda class
-
-// Write code to make it wrk from main():
-
-//     List<Integer> list = new ArrayList<>();
-//     list.add(-5);   // add numbers in range -5..0..5
-//     ...
-//     list.add(5);
-
-//     Comparable negative = (a) -> a > 0;   // LAMBDA
-//     Comparable positive = (a) -> a < 0;   // LAMBDA
-
-//     app.print(list, positive);
-//     app.print(list, negative);
-
 public class Program {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
