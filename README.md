@@ -1,5 +1,16 @@
 # tamk-4A00EZ65-3001-jaalto
 
+Repository for OOP university course exercises.
+
+Topics for the course:
+- Classes and Nested Classes
+- Inheritance
+- Interfaces and Functional Interfaces
+- Generics
+- Custom Exceptions
+
+## Project information and grading
+
 grade: +3
 
 The program includes a couple of simple console games the user can choose from through a game menu.
